@@ -1,18 +1,18 @@
 {
-  "name": "express-hello-world",
-  "version": "1.0.0",
-  "description": "一個簡單的 Express Hello World 應用",
-  "main": "app.js",
+  "name": "express-template",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node ./bin/www",
+    "build": "node scripts/build.js"
   },
-  "keywords": [
-    "express",
-    "nodejs"
-  ],
-  "author": "您的名字",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "esbuild": "^0.19.5",
+    "express": "^4.21.0",
+    "http-errors": "~1.6.3",
+    "jade": "^0.29.0",
+    "morgan": "~1.9.1"
   }
 }
